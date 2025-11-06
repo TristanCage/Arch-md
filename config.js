@@ -8,6 +8,7 @@ const fs = require("fs");
 require("dotenv").config(); 
 
 //==================[ BOT SETTINGS ]==================\\
+global.session     = process.env.SESSION_ID || "";                   // Session ID, To get Yours -- Visit https://arch-md.goodnesstechhost.xyz
 global.prefix      = (process.env.PREFIX || ".").trim().split(/\s+/); // Supports multiple or single prefix
 global.owner       = process.env.OWNER_NUMBER || "2349126793637";     // Owner number (for multiple, use comma-separated in your logic)
 global.sudo        = process.env.SUDO || "2349126793637";                          // Sudo users (string or logic processed array)
@@ -15,7 +16,6 @@ global.ownername   = process.env.OWNER_NAME || "ɢᴏᴏᴅɴᴇꜱꜱ ᴛᴇᴄ
 global.botname     = process.env.BOT_NAME || "ᴀʀᴄʜ ᴍᴅ";                 // Bot name
 global.author      = process.env.AUTHOR || "ɢᴏᴏᴅɴᴇꜱꜱ ᴛᴇᴄʜ ";                  // Sticker author
 global.packname    = process.env.PACK_NAME || "Arch Md ²⁵";          // Sticker pack name
-global.session     = process.env.SESSION_ID || "";                   // Session ID
 global.timezone    = process.env.TIME_ZONE || "Africa/Lagos";        // Default timezone
 global.simbol      = process.env.SYMBOL || "♘";                      // Menu icon/symbol
 global.thumb       = process.env.THUMB || "https://files.catbox.moe/bfzvlr.jpg,https://files.catbox.moe/n7wo5h.jpg,https://files.catbox.moe/sidp03.jpg,https://files.catbox.moe/yvb0et.jpg,https://files.catbox.moe/vu2qgl.jpg,https://files.catbox.moe/5rfbw9.jpg,https://files.catbox.moe/5hpljo.jpg,https://files.catbox.moe/o5hve8.jpg,https://files.catbox.moe/7383y9.jpg";
