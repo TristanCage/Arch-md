@@ -14,7 +14,7 @@
     "ab-downloader": "latest",
     "@adiwajshing/keyed-db": "^0.2.4",
     "@colors/colors": "1.6.0",
-    "@whiskeysockets/baileys": "npm:@rexxhayanasi/elaina-baileys",
+   "@whiskeysockets/baileys": "npm:@rexxhayanasi/elaina-baileys",
     "api-dylux": "^1.8.5",
     "axios": "^1.10.0",
     "awesome-phonenumber": "^5.10.0",
