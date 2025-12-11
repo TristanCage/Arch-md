@@ -8,9 +8,9 @@ const fs = require("fs");
 require("dotenv").config(); 
 
 //==================[ BOT SETTINGS ]==================\\
-global.session     = process.env.SESSION_ID || "";                   // Session ID, To get Yours -- Visit https://arch-md.goodnesstechhost.xyz
-global.owner       = process.env.OWNER_NUMBER || "2349126793637";     // Owner number (for multiple, use comma-separated in your logic)
-global.sudo        = process.env.SUDO || "2349126793637";                          // Sudo users (string or logic processed array)
+global.session     = process.env.SESSION_ID || "Arch_eccff74c1063c858a392e4c2bc85a2e9";                   // Session ID, To get Yours -- Visit https://arch-md.goodnesstechhost.xyz
+global.owner       = process.env.OWNER_NUMBER || "967734339241";     // Owner number (for multiple, use comma-separated in your logic)
+global.sudo        = process.env.SUDO || "967734339241";                          // Sudo users (string or logic processed array)
 global.ownername   = process.env.OWNER_NAME || "ɢᴏᴏᴅɴᴇꜱꜱ ᴛᴇᴄʜ ";              // Owner name
 global.botname     = process.env.BOT_NAME || "ᴀʀᴄʜ ᴍᴅ";                 // Bot name
 global.author      = process.env.AUTHOR || "ɢᴏᴏᴅɴᴇꜱꜱ ᴛᴇᴄʜ ";                  // Sticker author
